@@ -7,7 +7,12 @@ The script `forTheFirstTime.sh` does the following to my system
 3. Install solarized theme for terminal
 4. Generate ssh key for aws
 5. Install Sublime Text 3
-6. Install the OneDark theme (the one inspired by Atom) for Sublime (Ctrl + Shift + P tasks)
+6. Ctrl + Shift + P tasks
+    - Install the OneDark theme (the one inspired by Atom) for Sublime
+    - Install SublimeLinter
+    - Install PEP8 Linter
+    - Install pycodestyle
+    - Install any other plugin if recall
 7. Copy `sublime_settings.json` to Sublime preferences
 8. Setup git profile in the terminal
 
