@@ -3,7 +3,7 @@
 The script `forTheFirstTime.sh` does the following to your system:
 
 1. [Generates](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L13) ssh key
-2. [Sets up])(https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L35-L40) fish and [omf](https://github.com/oh-my-fish/oh-my-fish)
+2. [Sets up](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L35-L40) fish and [omf](https://github.com/oh-my-fish/oh-my-fish)
 3. [Installs](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L32) [Powerline-fonts](https://github.com/powerline/fonts)
 4. [Installs](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L21-L29) [solarized theme](https://github.com/Anthony25/gnome-terminal-colors-solarized) for terminal
 5. [Sets up](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L16-18) python3 (along with aliases, pip and [pycodestyle](https://github.com/PyCQA/pycodestyle))
