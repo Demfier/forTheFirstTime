@@ -12,6 +12,11 @@
 # Generate the ssh key print
 ssh-keygen -t rsa -C "$2"
 
+# Install pip3
+sudo apt install python3-pip
+pip3 install -U pip3  # upgrade pip
+pip3 install pycodestyle  --user # required for the respective Sublime plugin
+
 # Install Dark Solarized theme for terminal
 cd
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
@@ -47,6 +52,3 @@ git config --global user.email "$2"
 git config --global alias.co checkout
 git config --global alias.st status
 
-# Install pip3
-sudo apt install python3-pip
-pip install -U pip  # upgrade pip
