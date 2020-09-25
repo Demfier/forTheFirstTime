@@ -24,6 +24,12 @@ chmod +x forTheFirstTime.sh
 ./forTheFirstTime.sh your_github_username your_email
 ```
 
+OR
+
+```shell
+sh forTheFirstTime.sh your_github_username your_email
+```
+
 **Note:** You will need sudo access to run the script successfully
 
 After this, copy `sublime_settings.json` to your Sublime preferences (by going to Preferences > Settings)
