@@ -12,7 +12,7 @@ The script `forTheFirstTime.sh` does the following to your system:
         - Install the OneDark theme (the material one inspired by Atom) for Sublime
         - Install SublimeLinter
         - Install pycodestyle
-        - Install any other plugin if recall
+        - Install any other required plugin
 7. [Sets up](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L49-L53) git profile and git aliases in terminal
 
 **How to execute?**
