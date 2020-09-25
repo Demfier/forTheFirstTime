@@ -3,12 +3,6 @@
 # The above magical comment is important if we want to run the script on a
 # different terminal environment such as fish
 
-# TODO: Make python3 default (basically, dynamically add the following aliases to
-# ~/.bashrc and ~/.config/fish/config.fish:
-# alias py='python3'
-# alias python='python3'
-# alias pyhton='python3'
-
 # Generate the ssh key print
 ssh-keygen -t rsa -C "$2"
 
@@ -52,3 +46,14 @@ git config --global user.email "$2"
 git config --global alias.co checkout
 git config --global alias.st status
 
+# Add more custom aliases bash and fish config files
+echo "alias py=python3" >> ~/.bashrc
+echo "alias python=python3" >> ~/.bashrc
+echo "alias pyhton=python3" >> ~/.bashrc
+
+echo 'alias py="python3"' >> ~/.config/fish/conf.d/omf.fish
+echo 'alias python="python3"' >> ~/.config/fish/conf.d/omf.fish
+echo 'alias pyhton="python3"' >> ~/.config/fish/conf.d/omf.fish
+echo 'alias gpl="git pull origin master"' >> ~/.config/fish/conf.d/omf.fish
+echo 'alias gps="git push origin master"' >> ~/.config/fish/conf.d/omf.fish
+echo 'alias gpp="gpl; gps"' >> ~/.config/fish/conf.d/omf.fish
