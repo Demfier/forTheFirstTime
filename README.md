@@ -8,7 +8,7 @@ The script `forTheFirstTime.sh` does the following to your system:
 4. [Installs](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L21-L29) [solarized theme](https://github.com/Anthony25/gnome-terminal-colors-solarized) for terminal
 5. [Sets up](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L16-18) python3 (along with aliases, pip and [pycodestyle](https://github.com/PyCQA/pycodestyle))
 6. [Installs](https://github.com/Demfier/forTheFirstTime/blob/master/forTheFirstTime.sh#L44-47) [Sublime Text 3](https://www.sublimetext.com/)
-    - The script won't perform the following `Ctrl` + `Shift` + P tasks:
+    - The script won't perform the following `Ctrl + Shift + P` tasks:
         - Install the OneDark theme (the material one inspired by Atom) for Sublime
         - Install SublimeLinter
         - Install pycodestyle
